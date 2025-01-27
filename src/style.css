@@ -42,10 +42,13 @@ header {
 
 main {
   padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .weather-app-data {
-  display: flex;
+  flex: 1;
   justify-content: space-between;
 }
 
@@ -68,6 +71,8 @@ main {
 
 .weather-app-temperature-container {
   display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .weather-app-icon {
@@ -81,7 +86,7 @@ main {
   font-weight: bold;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
   margin-top: 16px;
   font-size: 28px;
 }
